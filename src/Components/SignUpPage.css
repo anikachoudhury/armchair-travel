@@ -1,6 +1,6 @@
 
 /* .form is also on SignInPage.css */
-.form{
+.SignUpForm{
     background: #6F1A07;
     height: 260px;
     width: 13%;
@@ -12,7 +12,8 @@
     grid-area: overlap;
     align-self: center;
     justify-self: center;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 } 
 
 .SignUpcontainer{

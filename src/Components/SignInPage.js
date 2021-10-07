@@ -13,7 +13,7 @@ class SignInPage extends React.Component {
             <div className="welcomeBox5">
                 <h1 className="Welcome">Welcome</h1>
                 </div>
-                <form action="#">
+                <form className="SignInForm" action="#">
                     <div className="username_passwordInput">
                         <label className="Sign-In">
                             Username

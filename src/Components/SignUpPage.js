@@ -13,7 +13,7 @@ class SignUpPage extends React.Component {
                 <div className="Box5SU">
                     <h1 className="CreateAccount">Create Account</h1>
                 </div>
-                <form action="#">
+                <form className="SignUpForm" action="#">
                     <div className="SignUpInput">
                         <label className="Sign-UpDetails">
                             Email
