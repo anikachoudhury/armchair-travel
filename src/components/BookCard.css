@@ -1,0 +1,38 @@
+.book-card-container {
+    /* width: 70%; */
+    
+    padding-top: 15px;
+}
+
+.book-card-container>img {
+    height: 200px;
+}
+
+.desc>button {
+    background-color: #6078FF;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    padding: 8px 9px;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.desc>button:hover {
+    opacity: 0.8;
+}
+
+.desc>button>a {
+    color: white;
+    font-size: 15px;
+}
+
+.desc>h4 {
+    height: 30px;
+}
+
+.desc>p {
+    opacity: 0.5;
+    height: 40px;
+    
+}
