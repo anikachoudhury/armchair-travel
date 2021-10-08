@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SearchArea from '../SearchArea'
+import MovieSearchArea from './MovieSearchArea'
 import MoviesList from './MoviesList'
 
 export class FetchMovies extends Component {
@@ -40,7 +40,7 @@ export class FetchMovies extends Component {
     render() {
         return (
             <div className="App">
-                <SearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange} />
+                <MovieSearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange} />
                 <MoviesList movies={this.state.movies}/>
             </div>
         )

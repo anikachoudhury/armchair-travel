@@ -1,12 +1,12 @@
 import './App.css';
-import  FetchMovies  from './Component/Movies/FetchMovies';
-import FetchMeals from './Component/Meals/FetchMeals';
+import  FetchMovies  from './Pages/Movies/FetchMovies';
+import FetchMeals from './Pages/Meals/FetchMeals'
 
 function App() {
 
   return (
     <div className="App">
-      {/* <FetchMovies /> */}
+      <FetchMovies />
       <FetchMeals />
     </div>
   );
