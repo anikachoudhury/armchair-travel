@@ -1,5 +1,16 @@
-
-.container{
+.SignInPage{
+    background-image: url(../Resources/foodie-culture-society.jpeg);
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: solid;
+    
+}
+ 
+ .container{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -9,82 +20,126 @@
 }
 
 .welcomeBox1{
-    background-color: transparent;
+    /* background-color: #d8bbbb80;
+    background-image: url("../Resources/foodie-culture-society.jpeg");
+    background-size: cover; */
     width: 80%;
     height: 650px;
     grid-area: overlap;
     align-self: center;
     justify-self: center;
-    border: #AF9164;
+    margin-bottom: 5%;
+    /* border: #2e527e;
     border-style: solid;
-    border-width: 17px;
+    border-width: 20px; */
 }
 
-.welcomeBox2{
-    background-color: transparent;
+/* .welcomeBox2{
+    background-color: #F7F3E3;
     width: 60%;
     height: 400px;
     grid-area: overlap;
     align-self: center;
     justify-self: center;
-    border: #6f1a07;
-    border-style: solid;
+    border: #ff7878;
+    border-style: double;
     border-width: 17px;
-}
+} */
 
-.welcomeBox3{
-    background-color:#AF9164;
+/* .welcomeBox3{
+    background-color:transparent;
+    background-color:#c4cbd8;
     width: 26%;
     height: 590px;
     grid-area: overlap;
     align-self: center;
     justify-self: center;
-    border: #2B2118;
-}
+    border: #c4cbd8;
+    border-style: double;
+} */
 
-.welcomeBox4{
+/* .welcomeBox4{
     background-color: #F7F3E3;
     width: 22%;
     height: 530px;
     grid-area: overlap;
     align-self: center;
     justify-self: center;
-    border: #2b2118ad;
+    border: #183251;
     border-style: solid;
     border-width: 6px;
-}
+} */
 
 .welcomeBox5{
-    color: #F7F3E3;
+    color: white;
     margin: auto;
-    font-size: 17px;
+    font-size: 27px;
     text-align: center;
-    background-color: #6F1A07;
-    opacity: 0.4;
-    width: 18%;
-    height: 400px;
+    background-color: #f3f0d7bb;
+    width: 20%;
+    height: 490px;
     grid-area: overlap;
     align-self: center;
     justify-self: center;
-    border: #332418;
-     border-style: solid;
-    border-width: 6px;
+    border: #183251;
+     border-style: double;
+     border-radius: 2%;
+    /* border-width: 14px; */
+}
+
+.Sign-In-Button{
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+.Sign-Up-button{
+    max-height:35vw;
+    max-width: 10vw;
+    /* margin-top: 5%; */
+}
+
+button {
+    background-color:  #F3F0D7;
+    border:3px; 
+    border-style:solid; 
+    border-color: #F3F0D7;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 1px;
+    color:  #183251;
+    font-weight: bold;
+    margin: auto;
+}
+
+.btnstyling{
+    align-self:center;
+    /* margin-top: -30px; */
+    size: 10px;
+}
+
+button:hover {
+    background-color: #183251;
+    color: #F3F0D7;
 }
 
 .SignInForm{
 
-    background: #6F1A07;
-    height: 260px;
+    background: #183251c0;
+    height: 380px;
     width: 13%;
     margin: auto;
     padding: 10px;
-    /* z-index: 4; */
+    z-index: 4; 
     position: static;
     border-style: none;
     grid-area: overlap;
     align-self: center;
     justify-self: center;
     display: inline-block;
+    border: #ffffff;
+    border-style: double;
+    box-shadow: 0 4px 8px 0 rgba(65, 72, 114, 0.055), 0 6px 20px 0 rgba(77, 51, 51, 0);
+    border-radius: 4%;
 } 
 
 .Sign-In{
@@ -102,12 +157,12 @@
     text-align: center;
     position: relative;
 
-}
-/* .Sign-In input#username{
+} 
+.Sign-In input#username{
     align-items: center;
     position: relative;
     text-align: center;
-} */
+} 
 
 .Sign-In input{
     text-align: center;
@@ -132,10 +187,15 @@ label .containerBox{
     align-items: center;
     text-align: center;
     margin: auto;
-    font-size: 2vw;
+    font-weight: 900px;
+    color: #F3F0D7;
+    font-size: 90px; 
+     -webkit-text-stroke-width: 1px;
+  text-shadow: 1px 90px 700px #183251, 0 0 00em #183251, 0 0 10em #183251;
+    
 }
 
 input{
     border-radius: 5px;
     height: 18px;
-}
+} 
