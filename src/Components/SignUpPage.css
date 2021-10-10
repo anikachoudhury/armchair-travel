@@ -1,103 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
-/* .form is also on SignInPage.css */
+.SignUp{
+   background-image: url(../Resources/back.jpeg);
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px #ff78781e;
+    /* background-repeat: no-repeat; */
+    /* border-style: solid;   */
+    font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* flex-direction: column; */
+	font-family: 'Montserrat', sans-serif;
+	/* height: 100vh; */
+}
+
+.SignUpContainer{
+    background-color: #f3f0d770;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
 .SignUpForm{
-    background: #6F1A07;
-    height: 260px;
-    width: 13%;
     margin: auto;
-    padding: 10px;
-    z-index: 4;
-    position: static;
-    border-style: none;
-    grid-area: overlap;
+    margin-top: -60px;
     align-self: center;
     justify-self: center;
     display: flex;
     flex-direction: column;
 } 
 
-.SignUpcontainer{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "overlap";
-    margin:auto;
-    margin-top: 5%;
-}
-
-.Box1SU{
-    background-color: #af916446;
-    width: 80%;
-    height: 650px;
-    grid-area: overlap;
-    align-self: center;
-    justify-self: center;
-    border: #af9164;
-    border-style: solid;
-    border-width: 17px;
-}
-
-.Box2SU{
-    background-color: transparent;
-    width: 60%;
-    height: 400px;
-    grid-area: overlap;
-    align-self: center;
-    justify-self: center;
-    border: #6f1a07;
-    border-style: solid;
-    border-width: 17px;
-}
-
-.Box3SU{
-    background-color:#af9164;
-    width: 26%;
-    height: 590px;
-    grid-area: overlap;
-    align-self: center;
-    justify-self: center;
-    border: #2B2118;
-}
-
-.Box4SU{
-    background-color: #F7F3E3;
-    width: 22%;
-    height: 530px;
-    grid-area: overlap;
-    align-self: center;
-    justify-self: center;
-    border: #2b2118ad;
-    border-style: solid;
-    border-width: 6px;
-}
-
-.Box5SU{
-    color: #F7F3E3;
-    margin: auto;
-    font-size: 17px;
-    text-align: center;
-    background-color: #6F1A07;
-    opacity: 0.4;
-    width: 18%;
-    height: 400px;
-    grid-area: overlap;
-    align-self: center;
-    justify-self: center;
-    border: #332418;
-     border-style: solid;
-    border-width: 6px;
-}
-
 .Sign-UpDetails{
     display: block;
     text-align: center;
     margin: 25%;
-    color:#F7F3E3;
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 900;
+    color: #183251;
 }
 
-div.SignUpInput{
+.SignUpInput{
     align-items: 'center';
     display: block;
     text-align: center;
@@ -127,25 +79,45 @@ label .SignUpcontainer{
     align-items: center;
     text-align: center;
     margin: auto;
-    font-size: 2vw;
+    margin-top: 40px;
+    font-size: 34px;
+    color:  #183251d0;
+    
 }
 
-input{
-    border-radius: 5px;
-    height: 18px;
+input {
+	border: none;
+	padding: 12px 15px;
+	/* margin: 8px 0; */
+	width: 100%;
+    height: 30px;
 }
 
-/* .outerForm{
-    display: inline-block;
-    text-align: center;
-    grid-area: overlap;
-    align-self: center;
-    justify-self: center;
-    background-color: transparent;
-    position: static;
+input:focus{
+    background-color: #ff787891;
+    outline: #183251;
+}
 
-} */
-
-.Sign-Ip-Button{
+button{
+    border-radius: 20px;
+	border: 1px solid #ff7878;
+	background-color: #ff7878;
+	color: #FFFFFF;
+	font-size: 19px;
+	font-weight: bold;
+	padding: 12px 40px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    /* margin-top: 10px; */
     margin: auto;
+    /* margin-top: -190px; */
+    margin-bottom: 20px;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:hover{
+    background: linear-gradient(to right, #ff7878a4, #183251c7);
 }

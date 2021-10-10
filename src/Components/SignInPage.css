@@ -34,43 +34,7 @@
     border-width: 20px; */
 }
 
-/* .welcomeBox2{
-    background-color: #F7F3E3;
-    width: 60%;
-    height: 400px;
-    grid-area: overlap;
-    align-self: center;
-    justify-self: center;
-    border: #ff7878;
-    border-style: double;
-    border-width: 17px;
-} */
-
-/* .welcomeBox3{
-    background-color:transparent;
-    background-color:#c4cbd8;
-    width: 26%;
-    height: 590px;
-    grid-area: overlap;
-    align-self: center;
-    justify-self: center;
-    border: #c4cbd8;
-    border-style: double;
-} */
-
-/* .welcomeBox4{
-    background-color: #F7F3E3;
-    width: 22%;
-    height: 530px;
-    grid-area: overlap;
-    align-self: center;
-    justify-self: center;
-    border: #183251;
-    border-style: solid;
-    border-width: 6px;
-} */
-
-.welcomeBox5{
+.welcomeBox2{
     color: white;
     margin: auto;
     font-size: 27px;

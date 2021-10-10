@@ -10,10 +10,7 @@ class SignInPage extends React.Component {
                 <section >
                     <div className="container" >
                         <div className="welcomeBox1"><h1 className="Welcome">Welcome</h1></div>
-                        {/* <div className="welcomeBox2"></div> */}
-                        {/* <div className="welcomeBox3"></div>
-                        <div className="welcomeBox4"></div> */}
-                        <div className="welcomeBox5">
+                        <div className="welcomeBox2">
                         </div>
                         <form className="SignInForm" action="#">
                             <div className="username_passwordInput">
