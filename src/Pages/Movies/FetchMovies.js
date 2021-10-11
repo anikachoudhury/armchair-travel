@@ -39,7 +39,7 @@ export class FetchMovies extends Component {
     
     render() {
         return (
-            <div className="App">
+            <div className="fetchMovies">
                 <MovieSearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange} />
                 <MoviesList movies={this.state.movies}/>
             </div>

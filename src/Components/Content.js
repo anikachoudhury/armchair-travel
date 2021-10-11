@@ -7,7 +7,8 @@ import {AnimatePresence} from "framer-motion";
 import Movies from '../Pages/Movies/FetchMovies';
 import Recipes from '../Pages/Meals/FetchMeals';
 import Books from '../Pages/Books';
-// import Login from '../Container/UserContainer';
+import Login from '../Pages/SignInSignUp';
+import SignUp from '../Pages/SignUpPage';
 import ChatForum from '../Pages/Chatforum';
 
 function Content(){
@@ -19,7 +20,8 @@ function Content(){
 
     <AnimatePresence>
     <Switch> 
-        {/* <Route exact path="/" component={Login}/> */}
+        <Route exact path="/logIn" component={Login}/>
+        <Route exact path="/signUp" component={SignUp}/>
         <Route path="/movies" component={Movies}/>
         <Route path="/books" component={Books}/>
         {/* <Route path="/music" component={Music}/> */}

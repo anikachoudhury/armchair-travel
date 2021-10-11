@@ -34,8 +34,12 @@ function Navbar() {
       <li>CHATFORUM</li>
       </Link>
 
-      <Link to="/">
-      <li>LOGOUT</li>
+      <Link to="/logIn">
+      <li>LOG IN</li>
+      </Link>
+
+      <Link to="/signUp">
+      <li>SIGN UP</li>
       </Link>
     </div>
 

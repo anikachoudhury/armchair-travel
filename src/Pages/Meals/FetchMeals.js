@@ -36,7 +36,7 @@ export class FetchMeals extends Component {
     
     render() {
         return (
-            <div className="App">
+            <div className="FetchMeals">
                 <MealsSearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange} />
                 <MealList meal={this.state.meal}/>
             </div>
