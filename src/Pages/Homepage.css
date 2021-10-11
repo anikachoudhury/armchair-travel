@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.backgroundcolor{
+    background-color: #F3F0D7;
+    background-image: linear-gradient(#F3F0D7, #FF7878);
+}
+
+.homeSection{
+    display: inline-block;
+    padding: 150px;
+}
+
+.homeLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.world {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: Bebas, sans-serif;
+    color:  #183251;
+}
+
+h2 {
+    font-family: Bebas, sans-serif;
+    color: #183251;
+}
+
+.intro {
+    color: #183251;
+    font-weight: bold;
+    font-family: Bebas, sans-serif;
+    font-size: 18px;
+    border:3px; border-style:solid; border-color: #F3F0D7; padding: 1em;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+.quoteBackground {
+    background-color: #183251;
+    opacity: 0.5px;
+    text-transform: uppercase;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    color: #F3F0D7;
+}
+
+button {
+    background-color:  #F3F0D7;
+    border:3px; border-style:solid; border-color: #F3F0D7; padding: 1em;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color:  #183251;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #183251;
+    color: #F3F0D7;
+}
+
+.scrollDownButton {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+
+.firstHomeButton {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 150px;
+}
+
+.homeIntro {
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+}
