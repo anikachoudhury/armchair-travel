@@ -2,6 +2,16 @@
     /* width: 70%; */
     
     padding-top: 15px;
+    /* border: 1px solid red; */
+    margin: 20px 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.book-card-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .book-card-container>img {
@@ -9,7 +19,7 @@
 }
 
 .desc>button {
-    background-color: #6078FF;
+    background-image: linear-gradient(#d897b2, #FF7878);
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 30px;

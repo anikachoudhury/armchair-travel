@@ -9,7 +9,7 @@ const BookCard = (props) => {
                 <h4>{props.title}</h4>
                 <p>Author: {props.author}</p>
                 <p>Published: {props.published}</p>
-                <button><a href={props.link}>Click here to read</a></button>
+                <button><a href={props.link} rel="noreferrer" target="_blank">Click here to read</a></button>
             </div>
         </div>
     )

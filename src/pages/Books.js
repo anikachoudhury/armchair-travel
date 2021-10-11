@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BookSearchArea from './BookSearchArea';
 import request from 'superagent';
 import BookList from './BookList';
+import './Books.css';
 
 export class Books extends Component {
     constructor(props) {
@@ -23,6 +24,7 @@ export class Books extends Component {
 
     handleSearch = (e) => {
         this.setState({ searchField: e.target.value });
+        
     }
 
     render() {

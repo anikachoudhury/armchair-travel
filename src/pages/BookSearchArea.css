@@ -26,11 +26,11 @@
 .search-area>form>select:focus 
  {
     box-shadow: 0 0 0 3px #dee2ff;
-    border-color: #6078FF;
+    border-color: #597f97;
 }
 
 .search-area>form>button {
-    background-color: #6078FF;
+    background-image: linear-gradient(#d897b2, #FF7878);
     border-radius: 4px;
     border: 0;
     color: white;
