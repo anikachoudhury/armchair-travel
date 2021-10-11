@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
-import MovieSearchArea from './MovieSearchArea'
-import MoviesList from './MoviesList'
+import React, { Component } from 'react';
+import MovieSearchArea from './MovieSearchArea';
+import MoviesList from './MoviesList';
+import './FetchMovies.css'
 
 export class FetchMovies extends Component {
     constructor() {

@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
-import MealsSearchArea from './MealsSearchArea'
-import MealList from './MealList'
+import React, { Component } from 'react';
+import MealsSearchArea from './MealsSearchArea';
+import MealList from './MealList';
+import './FetchMeals.css'
 
 export class FetchMeals extends Component {
     constructor() {

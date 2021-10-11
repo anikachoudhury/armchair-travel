@@ -32,7 +32,7 @@ const MovieSearchArea = (props) => {
 
                             </select>
 
-                            <button type="submit" onSubmit={props.handleSubmit}>Submit</button>
+                            <button type="submit" onSubmit={props.handleSubmit}>Search</button>
 
                     </form>
         </div>
