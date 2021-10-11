@@ -1,3 +1,7 @@
+.search-area {
+    text-align: center;
+}
+
 .search-area>form>input {
     width: 430px;
     height: 40px;
