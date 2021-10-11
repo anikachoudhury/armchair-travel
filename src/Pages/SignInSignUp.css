@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.SignInSignUp{
+    background-image: url(../Resources/foodie-culture-society.jpeg);
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px #ff78782c;
+    /* background-repeat: no-repeat; */
+    /* border-style: solid;   */
+    font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* flex-direction: column; */
+	font-family: 'Montserrat', sans-serif;
+	/* height: 100vh; */
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.Account_SU{
+	font-weight: bold;
+	margin: 0;
+    font-size:30px;
+}
+
+.SUdesc{
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+span {
+	font-size: 12px;
+}
+
+.SIheading{
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: -31px;
+    
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+.SIprompt{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2px;
+}
+
+ button.signIn, button.signUp{
+	border-radius: 20px;
+	border: 1px solid #ff7878;
+	background-color: #ff7878b7;
+	color: #FFFFFF;
+	font-size: 19px;
+	font-weight: bold;
+	padding: 12px 40px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    margin-top: 10px;
+}
+
+button.signIn:active {
+	transform: scale(0.95);
+}
+
+button.signIn:hover {
+	/* outline: none; */
+    background: linear-gradient(to left, #ff7878a4, #183251c7);
+}
+
+button.signUp:hover{
+    background: linear-gradient(to right, #ff7878a4, #183251c7);
+}
+
+
+form.SIform {
+	/* background-color: #F3f0d7; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+    margin-top: 50px;
+	height: 100%;
+	text-align: center;
+    color:#183251
+}
+
+.SIfields {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+    height: 30px;
+}
+
+.container {
+	background-color: #f3f0d77a;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+.sign-in-container {
+	left: 0;
+	width: 50%;
+}
+
+.overlay-container {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+}
+
+
+.overlay {
+	/* background: #ff787883; */
+	background: -webkit-linear-gradient(to right, #FF7878, #183251);
+	background: linear-gradient(to right, #ff7878a4, #183251c7);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+	position: relative;
+	height: 100%;
+	width: 200%;
+}
+
+.overlay-panel {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	margin-top: 20px;
+	height: 100%;
+	width: 50%;
+}
+
+.inputbars{
+    margin-top: 35px;
+}
+
+
