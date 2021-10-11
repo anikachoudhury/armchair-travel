@@ -1,0 +1,49 @@
+.card {
+    /* width: 70%; */
+    
+    padding-top: 15px;
+    /* border: 1px solid red; */
+    margin: 20px 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card>img {
+    height: 200px;
+}
+
+.card-content>button {
+    background-image: linear-gradient(#d897b2, #FF7878);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    padding: 8px 9px;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-content>button:hover {
+    opacity: 0.8;
+}
+
+.card-content>button>a {
+    color: white;
+    font-size: 15px;
+}
+
+.card-content>h4 {
+    height: 30px;
+}
+
+.card-content>p {
+    /* opacity: 0.8; */
+    height: 40px;
+    
+}
