@@ -6,11 +6,24 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+<<<<<<< HEAD
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "framer-motion": "^4.1.17",
+    "moment": "^2.29.1",
+=======
     "axios": "^0.22.0",
+>>>>>>> 1c3a723408d6f9987a5fc45d7e0b7b85dfbc6074
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router": "^5.2.1",
     "react-scripts": "4.0.3",
+<<<<<<< HEAD
+    "react-scroll": "^1.8.4",
+    "socket.io": "^4.2.0",
+=======
     "superagent": "^6.1.0",
+>>>>>>> 1c3a723408d6f9987a5fc45d7e0b7b85dfbc6074
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -36,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }

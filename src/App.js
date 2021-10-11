@@ -1,17 +1,16 @@
-import './App.css';
-import  FetchMovies  from './Component/Movies/FetchMovies';
-import FetchMeals from './Component/Meals/FetchMeals';
-
-import Books from './pages/Books';
+import React from 'react';
+import Content from './Components/Content';
+import Homepage from './Pages/Homepage';
 
 function App() {
 
   return (
-    <div className="App">
-      {/* <FetchMovies /> */}
-      <FetchMeals />
+    <div>
+    {/* <Homepage />
+    <Content/> */}
     </div>
   );
 }
 
 export default App;
+ 
