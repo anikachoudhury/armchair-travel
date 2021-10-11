@@ -6,7 +6,7 @@
     min-width: 100vw;
     min-height: 100vh;
     background-position: center;
-    box-shadow: inset 0 0 0 1000px #ff787831;
+    box-shadow: inset 0 0 0 1000px #ff78782c;
     /* background-repeat: no-repeat; */
     /* border-style: solid;   */
     font-family: 'Montserrat', sans-serif;
@@ -94,7 +94,7 @@ form.SIform {
 	justify-content: center;
 	flex-direction: column;
 	padding: 0 50px;
-    margin-top: 90px;
+    margin-top: 50px;
 	height: 100%;
 	text-align: center;
     color:#183251
@@ -156,7 +156,7 @@ form.SIform {
 	flex-direction: column;
 	padding: 0 40px;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 20px;
 	height: 100%;
 	width: 50%;
 }

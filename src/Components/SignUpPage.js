@@ -26,7 +26,7 @@ class SignUpPage extends React.Component {
                             <label className="Sign-UpDetails">
                                 Password
                                 <span className="SignUpcontainer">
-                                    <input type="text" name="password" id="password" placeholder="Enter a password..." />
+                                    <input type="password" name="password" id="password" placeholder="Enter a password..." />
                                 </span>
                             </label>
                             <button className="Sign-Up-Button" type="Create-User">Create Account</button>
