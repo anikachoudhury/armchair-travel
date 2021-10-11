@@ -22,9 +22,7 @@ function Chatforum(){
 
     return (
 
-        <div className="chatForumBackground">
-        <section className = "chatForumBody">
-
+        <section className="chatForumBackground">
         <div className="chatForum">
         {!showChat ? (
         <div className="joinChatContainer">
@@ -56,7 +54,6 @@ function Chatforum(){
 
     </div>
     </section>
-    </div>
     );
     
 }
