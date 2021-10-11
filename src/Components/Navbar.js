@@ -18,8 +18,8 @@ function Navbar() {
       <li>MOVIES</li>
       </Link>
 
-      <Link to="/films">
-      <li>FILMS</li>
+      <Link to="/books">
+      <li>BOOKS</li>
       </Link>
       
       <Link to="/music">
