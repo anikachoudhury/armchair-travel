@@ -3,6 +3,7 @@ import React from 'react';
 // import Homepage from './Pages/Homepage';
 import Books from './pages/Books';
 import './App.css';
+import Movies from './pages/Movies/Movie';
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
     <div>
     {/* <Homepage />
     <Content/> */}
-    <Books />
+    {/* <Books /> */}
+    <Movies />
     </div>
   );
 }
