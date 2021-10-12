@@ -1,4 +1,4 @@
-/* .App {
+ .App {
   text-align: center;
 
 }
@@ -36,7 +36,6 @@
   to {
     transform: rotate(360deg);
   }
-<<<<<<< HEAD
 }
 
 a {
@@ -46,7 +45,4 @@ a {
 a:visited {
   text-decoration: none;
   color: #33334F;
-}
-=======
-} */
->>>>>>> maria
+} 

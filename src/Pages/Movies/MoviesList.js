@@ -1,6 +1,6 @@
 import React from "react";
-import Movie from "./Movie";
-import './MoviesList.css'
+import './MoviesList.css';
+import MovieCard from '../../Components/MovieCard';
 
 const MoviesList = (props) => {
     return(
@@ -8,7 +8,7 @@ const MoviesList = (props) => {
                 {
                     props.movies.map((movie, i) => {
                         return (
-                            <Movie key={i} 
+                            <MovieCard key={i} 
                             image={movie.poster_path}
                             title={movie.original_title} 
                             overview={movie.overview}

@@ -1,13 +1,13 @@
 import React from 'react';
 import './MealList.css';
-import Meal from './Meal';
+import MealCard from '../../Components/MealCard';
 
 const MealList = (props) => {
     return (
         <div className="meal-list">
             {
                 props.meal.map((meal, i) => {
-                    return <Meal 
+                    return <MealCard 
                         key={i}
                         image={meal.image}
                         title={meal.title}
