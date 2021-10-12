@@ -46,40 +46,40 @@ class SignUpPage extends React.Component {
     render() {
         return (
             <div className="SignUp">
-                <section>
-                    <div className="SignUpContainer">
-                        <h1 className="CreateAccount">Create Account</h1>
-                        <form className="SignUpForm" action="#" onSubmit={this.handleUserSubmission}>
-                            <div className="SignUpInput">
-                                <label className="Sign-UpDetails">
-                                    First Name
-                                    <span className="SignUpcontainer">
-                                        <input type="text" name="firstName" id="firstName" value={this.state.firstName} onChange={this.handleChange} placeholder="Enter your First Name..." />
-                                    </span>
-                                </label>
-                                <label className="Sign-UpDetails">
-                                    Last Name
-                                    <span className="SignUpcontainer">
-                                        <input type="text" name="lastName" id="lastName" value={this.state.lastName} onChange={this.handleChange} placeholder="Enter your Last Name..." />
-                                    </span>
-                                </label>
-                                <label className="Sign-UpDetails">
-                                    Email
-                                    <span className="SignUpcontainer">
-                                        <input type="email" name="email" id="email" value={this.state.email} onChange={this.handleChange} placeholder="Enter your email..." />
-                                    </span>
-                                </label>
-                                <label className="Sign-UpDetails">
-                                    Password
-                                    <span className="SignUpcontainer">
-                                        <input type="password" name="password" id="password" value={this.state.password} onChange={this.handleChange} placeholder="Enter a password..." />
-                                    </span>
-                                </label>
-                                    <button className="signUp" id="signUp">Create Account</button>
-                            </div>
-                        </form>
-                    </div>
-                </section>
+              <section>
+                <div className="SignUpContainer">
+                    <h1 className="CreateAccount">Create Account</h1>
+                    <form className="SignUpForm" action="#" onSubmit={this.handleUserSubmission}>
+                        <div className="SignUpInput">
+                            <label className="Sign-UpDetails">
+                                First Name
+                                <span className="SignUpcontainer">
+                                    <input type="text" name="firstName" id="firstName" value={this.state.firstName} onChange={this.handleChange} placeholder="Enter your First Name..." />
+                                </span>
+                            </label>
+                            <label className="Sign-UpDetails">
+                                Last Name
+                                <span className="SignUpcontainer">
+                                    <input type="text" name="lastName" id="lastName" value={this.state.lastName} onChange={this.handleChange} placeholder="Enter your Last Name..." />
+                                </span>
+                            </label>
+                            <label className="Sign-UpDetails">
+                                Email
+                                <span className="SignUpcontainer">
+                                    <input type="email" name="email" id="email" value={this.state.email} onChange={this.handleChange} placeholder="Enter your email..." />
+                                </span>
+                            </label>
+                            <label className="Sign-UpDetails">
+                                Password
+                                <span className="SignUpcontainer">
+                                    <input type="password" name="password" id="password" value={this.state.password} onChange={this.handleChange} placeholder="Enter a password..." />
+                                </span>
+                            </label>
+                                <button className="signUp" id="signUp">Create Account</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
             </div>
         )
 
