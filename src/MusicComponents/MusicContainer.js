@@ -4,6 +4,8 @@ import MusicSearchArea from "./MusicSearchArea";
 import MusicList from "./musicList2";
 import './MusicContainer.css';
 
+//Get new userAccessToken from https://developer.spotify.com/console/get-featured-playlists/?country=&locale=&timestamp=&limit=&offset=
+
 class MusicContainer extends Component {
     constructor() {
         super()
