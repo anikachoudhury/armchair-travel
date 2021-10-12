@@ -1,5 +1,6 @@
 import React from 'react'
 import './SignInSignUp.css'
+import {Link} from 'react-router-dom';
 
 class SignInSignUp extends React.Component {
 
@@ -27,7 +28,9 @@ class SignInSignUp extends React.Component {
                                     <h1 className="Account_SU">Hello, Friend!</h1>
                                     <h4>Don't have an account?</h4>
                                     <p className="SUdesc">Enter your personal details and start journey with us</p>
-                                    <button className="signUp" id="signUp">Sign Up</button>
+                                    <Link to = "/signUp">
+                                        <button className="signUp" id="signUp">Sign Up</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
