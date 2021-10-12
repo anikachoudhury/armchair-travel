@@ -27,7 +27,7 @@ class SignInSignUp extends React.Component {
                                 <div className="overlay-panel overlay-left">
                                     <h1 className="Account_SU">Hello, Friend!</h1>
                                     <h4>Don't have an account?</h4>
-                                    <p className="SUdesc">Enter your personal details and start journey with us</p>
+                                    <p className="SUdesc">Enter your personal details and start your journey with us</p>
                                     <Link to = "/signUp">
                                         <button className="signUp" id="signUp">Sign Up</button>
                                     </Link>

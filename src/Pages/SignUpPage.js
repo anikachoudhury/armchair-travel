@@ -2,7 +2,7 @@ import React from "react";
 import './SignUpPage.css';
 
 class SignUpPage extends React.Component {
-
+  
     render() {
         return (
             <div className="SignUp">
@@ -18,9 +18,15 @@ class SignUpPage extends React.Component {
                                 </span>
                             </label>
                             <label className="Sign-UpDetails">
-                                Username
+                                First name
                                 <span className="SignUpcontainer">
-                                    <input type="text" name="username" id="username" placeholder="Enter a username..." />
+                                    <input type="text" name="username" id="firstname" placeholder="Enter first name..." />
+                                </span>
+                            </label>
+                            <label className="Sign-UpDetails">
+                                Surname
+                                <span className="SignUpcontainer">
+                                    <input type="text" name="surname" id="surname" placeholder="Enter surname..." />
                                 </span>
                             </label>
                             <label className="Sign-UpDetails">

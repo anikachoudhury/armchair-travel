@@ -32,7 +32,7 @@
 
 .SignUpForm{
     margin: auto;
-    margin-top: -60px;
+    margin-top: -10px;
     align-self: center;
     justify-self: center;
     display: flex;
@@ -42,7 +42,7 @@
 .Sign-UpDetails{
     display: block;
     text-align: center;
-    margin: 25%;
+    margin: 20%;
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     font-weight: 900;
