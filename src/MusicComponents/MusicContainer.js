@@ -21,7 +21,7 @@ class MusicContainer extends Component {
 
         const endpoint = "https://api.spotify.com/v1/browse/featured-playlists";
         const limit = 15;
-        const userAccessToken = 'BQDQk9DXvAvCzpnR_j4yvK6dckjnvyGYscCU9l49RlIckUhNjLx15KsX20Tg0w5oXMsn7YznSgL_hsnT851_SR64Jsppg6QwfjJGDPvLSOvb2GrR9fUsTqA5YkupC2_7W1Mpl3uDD10';
+        const userAccessToken = 'BQA0jy8bEZrmno1kFmJyBe1ZvOws1K_i2ktXg1ass9vtSPsnU92G3UkF22pEq98MbNMCJiAULpxElvZ1p7stMwo9uGwY6QPCTEJf4gxbBbreuEcLCEsoDQ2PQNKYMrUaIt9CIlnVRt3qctk';
 
         fetch(
             `${endpoint}?country=${this.state.countryCode}&limit=${limit}`, {

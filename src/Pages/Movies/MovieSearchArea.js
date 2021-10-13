@@ -30,7 +30,7 @@ const MovieSearchArea = (props) => {
                             <option value='cy'>Welsh</option>
 
 
-                            </select>
+                            </select><br/>
 
                             <button type="submit" onSubmit={props.handleSubmit}>Search</button>
 

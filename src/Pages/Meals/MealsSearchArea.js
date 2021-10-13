@@ -27,7 +27,7 @@ const MealsSearchArea = (props) => {
                     <option>Thai</option>
                     <option>Vietnamese</option>
 
-                </select>
+                </select><br />
 
                 <button type="submit">Search</button>
 
