@@ -44,7 +44,7 @@ function Chatforum(){
             type="text"
             placeholder="John..."
             onChange={(event) => {
-              setUsername(event.target.value);
+            setUsername(event.target.value);
             }}
           />
           <input
