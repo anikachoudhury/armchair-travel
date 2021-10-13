@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import {motion} from 'framer-motion';
 import MealsSearchArea from './MealsSearchArea';
 import MealList from './MealList';
-import './FetchMeals.css'
+import './FetchMeals.css';
+import pageVariants from './../../Components/pageVariants';
 
 export class FetchMeals extends Component {
     constructor() {
@@ -37,10 +39,19 @@ export class FetchMeals extends Component {
     
     render() {
         return (
-            <div className="fetchMeals">
+            <motion.div className="fetchMeals"
+            exit={{opacity: 0}} 
+            animate={{opacity: 1}} 
+            pageVariants={pageVariants}
+            initial={{opacity: 0}}>
+
+            <div className="recipesHeader">
+            <img src='./images/recipesHeader.png' width="900" alt="Recipes Header"/>
+            </div>
+
                 <MealsSearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange} />
                 <MealList meal={this.state.meal}/>
-            </div>
+            </motion.div>
         )
     }
 }

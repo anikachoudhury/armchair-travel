@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {motion} from 'framer-motion';
 import BookSearchArea from './BookSearchArea';
 import request from 'superagent';
 import BookList from './BookList';
@@ -29,13 +30,21 @@ export class Books extends Component {
 
     render() {
         return (
-            <div className="books">
+            <motion.div className="books"
+            exit={{opacity: 0}} 
+            animate={{opacity: 1}} 
+            initial={{opacity: 0}}>
+
+            <div className="booksHeader">
+            <img src='./images/booksHeader.png' width="900" alt="Book Header"/>
+             </div>
+
                 <BookSearchArea 
                     handleSearch={this.handleSearch}
                     searchBook={this.searchBook}
                 />
                 <BookList books={this.state.books}/>
-            </div>
+            </motion.div>
         )
     }
 }

@@ -7,13 +7,13 @@ function Navbar() {
   return (
     <header className="nav-container">
 
-    <div className="navbrand">
-      <Link to="/">
-      <li><img src='./images/navbarlogo.png' width="150" alt="logo" /></li>
+    <div className="navbrand nav-item">
+      <Link to="/logIn">
+      <li><img src='./images/navbarlogo.png' width="100" alt="logo" /></li>
       </Link> 
     </div>
 
-    <div className="navlinks">
+    <div className="navlinks nav-item">
       <Link to="/movies">
       <li>MOVIES</li>
       </Link>
@@ -34,13 +34,12 @@ function Navbar() {
       <li>CHATFORUM</li>
       </Link>
 
-      <Link to="/logIn">
-      <li>LOG IN</li>
-      </Link>
+    </div>
 
-      <Link to="/signUp">
-      <li>SIGN UP</li>
-      </Link>
+    <div className="nav-item logout">
+    <Link to="/logIn">
+    <button className="logoutButton">LOGOUT</button>
+    </Link>
     </div>
 
     </header>

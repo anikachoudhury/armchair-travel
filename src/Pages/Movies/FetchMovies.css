@@ -1,3 +1,10 @@
 .fetchMovies {
     background-color: #F5F5F7;
 }
+
+.moviesHeader{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

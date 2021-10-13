@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import {motion} from 'framer-motion';
 import MovieSearchArea from './MovieSearchArea';
 import MoviesList from './MoviesList';
-import './FetchMovies.css'
+import './FetchMovies.css';
 
 export class FetchMovies extends Component {
     constructor() {
@@ -40,10 +41,18 @@ export class FetchMovies extends Component {
     
     render() {
         return (
-            <div className="fetchMovies">
+            <motion.div className="fetchMovies"
+             exit={{opacity: 0}} 
+            animate={{opacity: 1}} 
+            initial={{opacity: 0}}>
+
+            <div className="moviesHeader">
+            <img src='./images/moviesHeader.png' width="900" alt="Movie Header"/>
+            </div>
+
                 <MovieSearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange} />
                 <MoviesList movies={this.state.movies}/>
-            </div>
+            </motion.div>
         )
     }
 }

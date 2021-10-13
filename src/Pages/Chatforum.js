@@ -1,5 +1,6 @@
 import React from 'react';
 import './Chatforum.css';
+import {motion} from 'framer-motion';
 import io from 'socket.io-client';
 import {useState} from 'react';
 import Chat from "./Chat";
@@ -22,11 +23,18 @@ function Chatforum(){
 
     return (
 
-        <section className="chatForumBackground">
+        <motion.section className="chatForumBackground"
+        exit={{opacity: 0}} 
+        animate={{opacity: 1}} 
+        initial={{opacity: 0}}>
+
+    <div className="forumHeader">
+    <img src='./images/travellerForum.png' width="900" alt="Forum Header"/>
+    </div>
+        
         <div className="chatForum">
         {!showChat ? (
         <div className="joinChatContainer">
-          <h1 className="chatTitle">TRAVELLER FORUM</h1>
           <p className="joinChatContainer2background">Connect with a fellow airchair traveller!
           You must be resigtered in order to enter a chat room.<br/>
           <br/>The Room ID that you enter should match the ID of the armchair traveller you wish to communicate with.</p>
@@ -53,7 +61,7 @@ function Chatforum(){
     )}
 
     </div>
-    </section>
+    </motion.section>
     );
     
 }

@@ -1,6 +1,7 @@
-import React from 'react'
-import './SignInSignUp.css'
+import React from 'react';
+import './SignInSignUp.css';
 import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion';
 
 class SignInSignUp extends React.Component {
 
@@ -23,7 +24,11 @@ e.preventDefault()
 
     render() {
         return (
-            <div className="SignInSignUp">
+            <motion.div className="SignInSignUp" 
+            exit={{opacity: 0}} 
+            animate={{opacity: 1}} 
+            initial={{opacity: 0}}> 
+
                 <section>
                     <div className="container" id="container">
                         <div className="form-container sign-in-container">
@@ -55,7 +60,7 @@ e.preventDefault()
                         </div>
                     </div>
                 </section>
-            </div>
+            </motion.div>
         )
     }
 }

@@ -100,7 +100,7 @@ input:focus{
     outline: #183251;
 }
 
-button{
+.signUp{
     border-radius: 20px;
 	border: 1px solid #ff7878;
 	background-color: #ff7878;
@@ -116,10 +116,10 @@ button{
     margin-bottom: 20px;
 }
 
-button:active {
+.signUp:active {
 	transform: scale(0.95);
 }
 
-button:hover{
+.signUp:hover{
     background: linear-gradient(to right, #ff7878a4, #183251c7);
 }

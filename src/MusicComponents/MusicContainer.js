@@ -1,5 +1,6 @@
 import React from "react";
 import { Component } from "react";
+import {motion} from 'framer-motion';
 import MusicSearchArea from "./MusicSearchArea";
 import MusicList from "./musicList2";
 import './MusicContainer.css';
@@ -45,11 +46,18 @@ class MusicContainer extends Component {
     
     render() {
         return (
-            <div className="music">
-                <MusicSearchArea handleSubmit ={this.handleSubmit} handleChange={this.handleChange} />
-                <p>Search for the most popular playlists from around the globe, simply type in the country code!</p>
-                <MusicList music={this.state.music} />
+            <motion.div className="music"
+            exit={{opacity: 0}} 
+            animate={{opacity: 1}} 
+            initial={{opacity: 0}}>
+
+            <div className="musicHeader">
+            <img src='./images/musicHeader.png' width="900" alt="Music Header"/>
             </div>
+
+                <MusicSearchArea handleSubmit ={this.handleSubmit} handleChange={this.handleChange} />
+                <MusicList music={this.state.music} />
+            </motion.div>
 
         )
     }

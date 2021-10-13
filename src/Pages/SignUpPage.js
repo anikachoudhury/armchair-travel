@@ -1,4 +1,5 @@
 import React from "react";
+import {motion} from 'framer-motion';
 import axios from "axios";
 // import {Link} from 'react-router-dom';
 import './SignUpPage.css';
@@ -45,7 +46,10 @@ class SignUpPage extends React.Component {
 
     render() {
         return (
-            <div className="SignUp">
+            <motion.div className="SignUp"
+            exit={{opacity: 0}} 
+            animate={{opacity: 1}} 
+            initial={{opacity: 0}}>
               <section>
                 <div className="SignUpContainer">
                     <h1 className="CreateAccount">Create Account</h1>
@@ -80,7 +84,7 @@ class SignUpPage extends React.Component {
                     </form>
                 </div>
             </section>
-            </div>
+            </motion.div>
         )
 
     }
