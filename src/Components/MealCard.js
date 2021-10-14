@@ -4,7 +4,7 @@ import './MealCard.css';
 
 const Meal = (props) => {
   return (
-    <div className="movie-card-container">
+    <div className="meal-card-container">
         {
           props.image == null ? <img src={noFood} alt="default image" /> : <img src={`https://spoonacular.com/recipeImages/${props.id}-312x231.jpg`} alt="card image"  />
         }

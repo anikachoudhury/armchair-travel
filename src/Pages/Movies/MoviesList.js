@@ -1,6 +1,6 @@
 import React from "react";
 import './MoviesList.css';
-import MovieCard from '../../Components/MovieCard';
+import MovieCard from '../../Components/MovieCard'
 
 const MoviesList = (props) => {
     return(
