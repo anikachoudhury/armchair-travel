@@ -41,7 +41,7 @@ export class Books extends Component {
             transition={pageTransition}>
 
             <div className="booksHeader">
-            <img src='./images/booksHeader.png' width="900" alt="Book Header"/>
+            <img src='./images/booksHeader.png' width="1200" alt="Book Header"/>
              </div>
 
                 <BookSearchArea 

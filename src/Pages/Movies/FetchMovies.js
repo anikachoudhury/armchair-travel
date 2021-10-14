@@ -52,7 +52,7 @@ export class FetchMovies extends Component {
             transition={pageTransition}>
 
             <div className="moviesHeader">
-            <img src='./images/moviesHeader.png' width="900" alt="Movie Header"/>
+            <img src='./images/moviesHeader.png' width="1200" alt="Movie Header"/>
             </div>
 
                 <MovieSearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange} />

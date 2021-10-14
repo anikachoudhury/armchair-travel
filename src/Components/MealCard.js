@@ -1,5 +1,6 @@
 import React from "react";
 import noFood from '../Resources/no-image.png'
+import './MealCard.css';
 
 const Meal = (props) => {
   return (

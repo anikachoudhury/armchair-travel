@@ -33,8 +33,8 @@ function Content() {
                     </Switch>
                 </AnimatePresence>
 
-                <Footer />
             </div>
+            <Footer />
         </Router>
     )
 }
