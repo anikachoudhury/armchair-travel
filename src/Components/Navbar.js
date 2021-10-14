@@ -1,6 +1,7 @@
 import React from "react";
 import './Navbar.css';
 import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion';
 
 function Navbar() {
 
@@ -9,7 +10,9 @@ function Navbar() {
 
     <div className="navbrand nav-item">
       <Link to="/logIn">
-      <li><img src='./images/navbarlogo.png' width="100" alt="logo" /></li>
+      <li><motion.img src='./images/navbarlogo.png' width="100" alt="logo" animate={{scale:[1, 1.4, 1.4, 1, 1],
+        rotate: [0,0, 370, 370, 0]}}
+        transition={{duration: 3}}></motion.img></li>
       </Link> 
     </div>
 

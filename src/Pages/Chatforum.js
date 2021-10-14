@@ -5,6 +5,9 @@ import io from 'socket.io-client';
 import {useState} from 'react';
 import Chat from "./Chat";
 
+import pageVariants from './../Components/pageVariants';
+import pageTransition from './../Components/pageTransition';
+
 const socket = io("http://localhost:3001")
 
 function Chatforum(){
@@ -24,9 +27,11 @@ function Chatforum(){
     return (
 
         <motion.section className="chatForumBackground"
-        exit={{opacity: 0}} 
-        animate={{opacity: 1}} 
-        initial={{opacity: 0}}>
+        initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}
+        transition={pageTransition}>
 
     <div className="forumHeader">
     <img src='./images/travellerForum.png' width="900" alt="Forum Header"/>

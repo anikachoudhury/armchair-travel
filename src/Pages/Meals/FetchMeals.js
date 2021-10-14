@@ -3,7 +3,9 @@ import {motion} from 'framer-motion';
 import MealsSearchArea from './MealsSearchArea';
 import MealList from './MealList';
 import './FetchMeals.css';
+
 import pageVariants from './../../Components/pageVariants';
+import pageTransition from './../../Components/pageTransition';
 
 export class FetchMeals extends Component {
     constructor() {
@@ -40,10 +42,11 @@ export class FetchMeals extends Component {
     render() {
         return (
             <motion.div className="fetchMeals"
-            exit={{opacity: 0}} 
-            animate={{opacity: 1}} 
-            pageVariants={pageVariants}
-            initial={{opacity: 0}}>
+        initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}
+        transition={pageTransition}>
 
             <div className="recipesHeader">
             <img src='./images/recipesHeader.png' width="900" alt="Recipes Header"/>

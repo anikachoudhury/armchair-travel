@@ -3,6 +3,9 @@ import './SignInSignUp.css';
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 
+import pageVariants from './../Components/pageVariants';
+import pageTransition from './../Components/pageTransition';
+
 class SignInSignUp extends React.Component {
 
     state={
@@ -25,9 +28,11 @@ e.preventDefault()
     render() {
         return (
             <motion.div className="SignInSignUp" 
-            exit={{opacity: 0}} 
-            animate={{opacity: 1}} 
-            initial={{opacity: 0}}> 
+        initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}
+        transition={pageTransition}>
 
                 <section>
                     <div className="container" id="container">

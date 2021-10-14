@@ -4,6 +4,9 @@ import axios from "axios";
 // import {Link} from 'react-router-dom';
 import './SignUpPage.css';
 
+import pageVariants from './../Components/pageVariants';
+import pageTransition from './../Components/pageTransition';
+
 
 class SignUpPage extends React.Component {
 
@@ -47,9 +50,11 @@ class SignUpPage extends React.Component {
     render() {
         return (
             <motion.div className="SignUp"
-            exit={{opacity: 0}} 
-            animate={{opacity: 1}} 
-            initial={{opacity: 0}}>
+        initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}
+        transition={pageTransition}>
               <section>
                 <div className="SignUpContainer">
                     <h1 className="CreateAccount">Create Account</h1>

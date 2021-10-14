@@ -5,6 +5,9 @@ import request from 'superagent';
 import BookList from './BookList';
 import './Books.css';
 
+import pageVariants from './../Components/pageVariants';
+import pageTransition from './../Components/pageTransition';
+
 export class Books extends Component {
     constructor(props) {
         super(props) 
@@ -31,9 +34,11 @@ export class Books extends Component {
     render() {
         return (
             <motion.div className="books"
-            exit={{opacity: 0}} 
-            animate={{opacity: 1}} 
-            initial={{opacity: 0}}>
+            initial="initial"
+            animate="in"
+            exit="out"
+            variants={pageVariants}
+            transition={pageTransition}>
 
             <div className="booksHeader">
             <img src='./images/booksHeader.png' width="900" alt="Book Header"/>

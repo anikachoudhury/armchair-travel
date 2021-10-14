@@ -5,6 +5,9 @@ import MusicSearchArea from "./MusicSearchArea";
 import MusicList from "./musicList2";
 import './MusicContainer.css';
 
+import pageVariants from './../Components/pageVariants';
+import pageTransition from './../Components/pageTransition';
+
 //Get new userAccessToken from https://developer.spotify.com/console/get-featured-playlists/?country=&locale=&timestamp=&limit=&offset=
 
 class MusicContainer extends Component {
@@ -47,9 +50,11 @@ class MusicContainer extends Component {
     render() {
         return (
             <motion.div className="music"
-            exit={{opacity: 0}} 
-            animate={{opacity: 1}} 
-            initial={{opacity: 0}}>
+            initial="initial"
+            animate="in"
+            exit="out"
+            variants={pageVariants}
+            transition={pageTransition}>
 
             <div className="musicHeader">
             <img src='./images/musicHeader.png' width="900" alt="Music Header"/>

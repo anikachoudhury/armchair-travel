@@ -4,6 +4,9 @@ import MovieSearchArea from './MovieSearchArea';
 import MoviesList from './MoviesList';
 import './FetchMovies.css';
 
+import pageVariants from './../../Components/pageVariants';
+import pageTransition from './../../Components/pageTransition';
+
 export class FetchMovies extends Component {
     constructor() {
         super()
@@ -42,9 +45,11 @@ export class FetchMovies extends Component {
     render() {
         return (
             <motion.div className="fetchMovies"
-             exit={{opacity: 0}} 
-            animate={{opacity: 1}} 
-            initial={{opacity: 0}}>
+            initial="initial"
+            animate="in"
+            exit="out"
+            variants={pageVariants}
+            transition={pageTransition}>
 
             <div className="moviesHeader">
             <img src='./images/moviesHeader.png' width="900" alt="Movie Header"/>
