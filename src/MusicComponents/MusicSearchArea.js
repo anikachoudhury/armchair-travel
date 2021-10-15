@@ -5,7 +5,7 @@ const MusicSearchArea = (props) => {
     return (
         <div className="search-area">
             <form action="" onSubmit={props.handleSubmit}>
-                <select htmlFor="movieLang" name="movieLang" onChange={props.handleChange}>
+                <select htmlFor="musicLang" name="musicLang" onChange={props.handleChange}>
 
                 <option>Select Language</option>
                 <option value='az'>Azerbaijan</option>

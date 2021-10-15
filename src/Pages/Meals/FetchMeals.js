@@ -49,7 +49,7 @@ export class FetchMeals extends Component {
         transition={pageTransition}>
 
             <div className="recipesHeader">
-            <img src='./images/recipesHeader.png' width="900" alt="Recipes Header"/>
+            <img src='./images/recipesHeader.png' width="1200" alt="Recipes Header"/>
             </div>
 
                 <MealsSearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange} />

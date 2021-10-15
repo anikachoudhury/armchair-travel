@@ -57,7 +57,7 @@ class MusicContainer extends Component {
             transition={pageTransition}>
 
             <div className="musicHeader">
-            <img src='./images/musicHeader.png' width="900" alt="Music Header"/>
+            <img src='./images/musicHeader.png' width="1200" alt="Music Header"/>
             </div>
 
                 <MusicSearchArea handleSubmit ={this.handleSubmit} handleChange={this.handleChange} />
