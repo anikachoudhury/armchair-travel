@@ -8,7 +8,6 @@ const MusicSearchArea = (props) => {
                 <select htmlFor="movieLang" name="movieLang" onChange={props.handleChange}>
 
                 <option>Select Language</option>
-                <option value='af'>Afghanistan</option>
                 <option value='az'>Azerbaijan</option>
                 <option value='bd'>Bangladesh</option>
                 <option value='cy'>Cyprus</option>
